@@ -1,5 +1,5 @@
-const openai = require('../config/openaikm');
-const inputPrompt = require('../models/inputPrompt');
+const openai = require('../config/openai');
+const inputPrompt = require('../models/input-prompt');
 
 module.exports = {
     async sendText(req, res){

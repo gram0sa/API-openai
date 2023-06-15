@@ -4,4 +4,4 @@ class inputPrompt {
     }
 }
 
-modelus.exports = inputPrompt
+module.exports = inputPrompt
