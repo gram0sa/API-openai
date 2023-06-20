@@ -39,7 +39,7 @@ function App() {
       <section className="chatbox">
         <div className="chat-log">
           {chatlog.map((message, index) => (
-            <ChatMessage Key={index} message={message} />
+            <ChatMessage key={index} message={message} />
           ))}
         </div>
         <div className="chat-input-holder">
